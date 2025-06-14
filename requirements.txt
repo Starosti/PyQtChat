@@ -1,0 +1,6 @@
+PyQt5==5.15.11
+litellm==1.52.0
+python-dotenv==1.1.0
+Markdown==3.8
+pymdown-extensions==10.15
+Pygments==2.19.1
