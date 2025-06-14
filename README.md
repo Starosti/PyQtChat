@@ -6,6 +6,11 @@ A modern BYOK desktop chatbot application that provides a unified interface for 
 ![PyQt5](https://img.shields.io/badge/GUI-PyQt5-green.svg)
 ![LiteLLM](https://img.shields.io/badge/AI-LiteLLM-orange.svg)
 
+https://github.com/user-attachments/assets/57236e75-648f-4fa9-8dbc-af54cef43487
+
+![pqi1](https://github.com/user-attachments/assets/1c817589-efaa-464b-a935-75f8009be134)
+![pqi2](https://github.com/user-attachments/assets/0a01b5b4-b651-4bb4-bf86-d603d361d843)
+
 ## Features
 
 ### Multi-Provider AI Support
