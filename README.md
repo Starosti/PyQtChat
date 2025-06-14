@@ -146,6 +146,7 @@ Access via `Settings → Preferences` or `Ctrl+,`:
 - `Ctrl+E`: Export Current Chat
 - `Ctrl+I`: Import Chat
 - `Ctrl+D`: Delete Current Chat
+- `Ctrl+N`: Create a New Chat
 - `F2`: Rename Current Chat
 - `Ctrl+Q`: Exit Application
 - `Enter`: Send Message

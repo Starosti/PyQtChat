@@ -233,6 +233,14 @@ class ChatbotApp(QMainWindow):
         if not file_menu:
             return
 
+        # Add create chat action
+        create_action = QAction("Create A New Chat", self)
+        create_action.setShortcut("Ctrl+N")
+        create_action.triggered.connect(lambda: self.create_new_chat_tab("New Chat"))  # type: ignore
+        file_menu.addAction(create_action)
+
+        file_menu.addSeparator()
+
         import_action = QAction("Import Chat", self)
         import_action.setShortcut("Ctrl+I")
         import_action.triggered.connect(self.import_chat)
@@ -251,7 +259,7 @@ class ChatbotApp(QMainWindow):
         delete_action.triggered.connect(self.delete_current_chat)
         file_menu.addAction(delete_action)
 
-        # Add delete chat action
+        # Add rename chat action
         rename_action = QAction("Rename Current Chat", self)
         rename_action.setShortcut("F2")
         rename_action.triggered.connect(self.rename_current_chat)
@@ -290,7 +298,7 @@ class ChatbotApp(QMainWindow):
         about_action.triggered.connect(self.show_about)
         help_menu.addAction(about_action)
 
-    def create_new_chat_tab(self, title):
+    def create_new_chat_tab(self, title="New Chat"):
         """Create a new chat tab with the given title."""
         # Create the chat tab
         chat_tab = ChatTab(self)
